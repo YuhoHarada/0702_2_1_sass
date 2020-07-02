@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+}
+
+section {
+  background-image: linear-gradient(60deg, #78ddff 12.5%, #ffeb7a 12.5%, #ffeb7a 25%, #ff7878 25%, #ff7878 37.5%, #f678ff 37.5%, #f678ff 50%, #78ddff 50%, #78ddff 62.5%, #ffeb7a 62.5%, #ffeb7a 75%, #ff7878 75%, #ff7878 87.5%, #f678ff 87.5%, #f678ff 100%);
+  height: 90vh;
+  padding: 5vh 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+p {
+  font-size: 2rem;
+}
+p:nth-of-type(1) {
+  align-self: flex-start;
+}
+p:nth-of-type(2) {
+  align-self: flex-end;
+}
+
+.title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  position: relative;
+}
+.title h1 {
+  font-size: 10rem;
+  font-weight: 400;
+}
+.title div {
+  position: absolute;
+  right: -70px;
+  top: -70px;
+  background: #f678ff;
+  font-size: 5rem;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title h3 {
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+/*# sourceMappingURL=style.css.map */
